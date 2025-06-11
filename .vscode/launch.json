@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug appkgpt (CMake Tools)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${command:cmake.launchTargetPath}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "CMake: build",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "visualizerFile": "/home/marlon/.config/Code/User/workspaceStorage/8fe0fbe737a302f7dfa61fcd5d5be63a/tonka3000.qtvsctools/qt.natvis.xml"
+    }
+  ]
+}
