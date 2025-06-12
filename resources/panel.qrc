@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="Main.qml">../qml/Main.qml</file>
+    <file alias="Panel.qml">../qml/Panel.qml</file>
+    <file alias="SettingsDialog.qml">../qml/SettingsDialog.qml</file>
+  </qresource>
+</RCC>
